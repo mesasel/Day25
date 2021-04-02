@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import GetRequest from './GetRequest';
+import GetRequestErrorHandling from "./GetRequestErrorHandling";
 
 function App() {
   return (
     <div className="App">
-      <GetRequest />
+      <GetRequestErrorHandling />
     </div>
   );
 }

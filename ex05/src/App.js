@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import GetRequest from './GetRequest';
+import PostRequest from "./PostRequest";
 
 function App() {
   return (
     <div className="App">
-      <GetRequest />
+      <PostRequest />
     </div>
   );
 }
